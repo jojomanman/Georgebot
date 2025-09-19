@@ -29,6 +29,8 @@ To set up and run Georgebot, follow these steps:
     BOT_TOKEN=YOUR_TELEGRAM_BOT_TOKEN
     ```
     Replace `YOUR_TELEGRAM_BOT_TOKEN` with the actual token obtained from BotFather on Telegram.
+    
+    **Important**: Make sure to add `.env` to your `.gitignore` file to prevent sensitive information from being committed to version control.
 4.  **Install dependencies**: Install the required Python packages using pip:
     ```bash
     pip install -r requirements.txt
